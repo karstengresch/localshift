@@ -8,6 +8,20 @@ Though there are [minishift](https://github.com/minishift/minishift)/CDK and [cr
 
 Minishift furthermore uses ```oc cluster up``` to initialize and run the cluster, whereas ~crc~ is a comprehensive go application.
 
-But I like also show more advanced functionality (affinity pod placement, killing nodes, distributing workload over multiple nodes).
+What I need and like to hack around with is more advanced functionality (affinity pod placement, killing nodes, distributing workload over multiple nodes).
 
 Here's is my try to get an OpenShift cluster running as per the default recommended installation method.
+
+## Plan (as of 2019-09-20)
+
+  1. Create multiple libvirt VMs for later deployment within a usable kvm network and attached libvirt storage.
+  1. Run the OpenShift [OpenShift libvirt installer](https://github.com/openshift/installer/blob/master/docs/dev/libvirt/README.md) against these machines.
+
+## Design dreams
+Not sure if this can be achieved, but I like to implement 
+  
+  * Deployment profiles (mini: 1 master, 1 infra, 2 worker; default: 2 master, 2 infra, 3 worker; ha: 3 (?) master, 3 (?) infra, 4 worker).
+  * Dynamic host naming convention (later)
+  * IP range specification
+
+in a way, that the base information can be specified in an external file.
