@@ -42,4 +42,6 @@ Links to external articles/projects that could be useful:
 https://github.com/jkhelil/openshift-poc/blob/master/openshift-ansible/README_libvirt.md
 
 ### Projects
+https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4
 
+https://github.com/jkhelil/openshift-poc
