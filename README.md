@@ -25,3 +25,9 @@ Not sure if this can be achieved, but I like to implement
   * IP range specification
 
 in a way, that the base information can be specified in an external file.
+
+## Giant's shoulder
+Links to external articles/projects that could be useful:
+
+[Bare metal installation of OpenShift (official docs)](https://docs.openshift.com/container-platform/4.1/installing/installing_bare_metal/installing-bare-metal.html)
+[Ales Nosek: Installing OpenShift 4.1 Using Libvirt and KVM]http://alesnosek.com/blog/2019/07/08/installing-openshift-4-dot-1-using-libvirt-and-kvm/
