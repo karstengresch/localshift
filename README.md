@@ -20,7 +20,10 @@ Here's is my try to get an OpenShift cluster running as per the default recommen
 ## Design dreams
 Not sure if this can be achieved, but I like to implement 
   
-  * Deployment profiles (mini: 1 master, 1 infra, 2 worker; default: 2 master, 2 infra, 3 worker; ha: 3 (?) master, 3 (?) infra, 4 worker).
+  * Deployment profiles (
+    * mini: 1 master, 1 infra, 2 worker; 
+    * default: 2 master, 2 infra, 3 worker; 
+    * ha: 3 (?) master, 3 (?) infra, 4 worker).
   * Dynamic host naming convention (later)
   * IP range specification
 
@@ -29,5 +32,14 @@ in a way, that the base information can be specified in an external file.
 ## Giant's shoulder
 Links to external articles/projects that could be useful:
 
+### Articles/Documentation
+
 [Bare metal installation of OpenShift (official docs)](https://docs.openshift.com/container-platform/4.1/installing/installing_bare_metal/installing-bare-metal.html)
-[Ales Nosek: Installing OpenShift 4.1 Using Libvirt and KVM]http://alesnosek.com/blog/2019/07/08/installing-openshift-4-dot-1-using-libvirt-and-kvm/
+[Ales Nosek: Installing OpenShift 4.1 Using Libvirt and KVM](http://alesnosek.com/blog/2019/07/08/installing-openshift-4-dot-1-using-libvirt-and-kvm/)
+
+[Red Hat EMEA Services libvirt section for ocp 4](https://github.com/RedHat-EMEA-SSA-Team/hetzner-ocp4#initialize-tools)
+
+https://github.com/jkhelil/openshift-poc/blob/master/openshift-ansible/README_libvirt.md
+
+### Projects
+
